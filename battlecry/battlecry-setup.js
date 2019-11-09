@@ -1,4 +1,4 @@
-export default function setup(battlecry) {
+export default function setup (battlecry) {
   // Load additional generators here
   // battlecry.load('node_modules/battlecry-generatores-from-node-modules');
   //
