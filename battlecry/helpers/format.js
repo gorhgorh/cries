@@ -1,3 +1,3 @@
-export default function format(text) {
+export default function format (text) {
   return `!!${text}!!`
 }

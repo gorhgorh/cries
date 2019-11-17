@@ -5,20 +5,20 @@ const Wrapper = styled.div`
   width: 100%;
 `
 
-const __Name__ = (props) => {
+const __NaMe__ = (props) => {
   return (
     <Wrapper>
-      __Name__
+      __NaMe__
     </Wrapper>
   )
 }
 
-// __Name__.propTypes = {
+// __NaMe__.propTypes = {
 
 // }
 
-// __Name__.defaultProps = {
+// __NaMe__.defaultProps = {
 
 // }
 
-export default __Name__
+export default __NaMe__

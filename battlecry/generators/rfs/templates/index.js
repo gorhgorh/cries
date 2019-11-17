@@ -1,2 +1,2 @@
-import __Name__ from './__Name__'
-export default __Name__
+import __NaMe__ from './__NaMe__'
+export default __NaMe__
