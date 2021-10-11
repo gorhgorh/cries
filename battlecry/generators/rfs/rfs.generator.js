@@ -4,11 +4,11 @@ export default class ComponentGenerator extends Generator {
   config = {
     generate: {
       args: 'name',
-      description: 'func comp with styled and a story'
+      description: 'func comp with a story'
     }
   }
 
   generate () {
-    this.templates().forEach(file => file.saveAs(`src/components/${upFChar(this.args.name)}/`, this.args.name))
+    this.templates().forEach(file => file.saveAs(`components/${upFChar(this.args.name)}/`, this.args.name))
   }
 }

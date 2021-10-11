@@ -1,14 +1,16 @@
+/* eslint-disable camelcase */
 import React from 'react'
-import { storiesOf } from '@storybook/react'
-// import { withKnobs, boolean } from '@storybook/addon-knobs'
-// import { action } from '@storybook/addon-actions'
-import __NaMe__ from './index'
+import __NaMe__ from './index.js'
 
-// const actions = {
-//   onSelect: action('onSelect')
-// }
+export default {
+  title: 'Atoms/OpenClosed',
+  component: __NaMe__
+}
 
-storiesOf('__NaMe__', module)
-  // .addDecorator(withKnobs)
-  // eslint-disable-next-line react/jsx-pascal-case
-  .add('base', () => <__NaMe__ />)
+const __NaMe__St = (args) => <__NaMe__ {...args} />
+
+export const Closed = __NaMe__St.bind({})
+Closed.args = { open: false }
+
+export const Open = __NaMe__St.bind({})
+Open.args = { open: true }

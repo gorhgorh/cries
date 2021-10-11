@@ -8,21 +8,6 @@ export const actions = {
   act: action('act')
 }
 
-const buttons = [
-  {
-    act: action('act 1'),
-    label: 'Bt 1'
-  },
-  {
-    act: action('act 2'),
-    label: 'Bt 2'
-  },
-  {
-    act: action('act 3'),
-    label: 'Bt 3'
-  }
-]
-
-storiesOf('BtBar', module)
+storiesOf('__NaMe__', module)
   // .addDecorator(story => <View style={styles.BtBarCont}>{story()}</View>)
-  .add('default', () => <__NaMe__ {...actions} btns={buttons}/>)
+  .add('default', () => <__NaMe__ {...actions}/>)
